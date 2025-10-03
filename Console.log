@@ -1,3 +1,6 @@
 SELECT * 
-FROM WFMAILQUEUEHISTORYTABLE 
-WHERE processInstanceId IN ('500271', '500272', '500256', '500269');
+FROM WFMAILQUEUEHISTORYTABLE
+WHERE processInstanceId LIKE '%500271%'
+   OR processInstanceId LIKE '%500272%'
+   OR processInstanceId LIKE '%500256%'
+   OR processInstanceId LIKE '%500269%';
