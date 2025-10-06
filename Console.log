@@ -1,6 +1,1 @@
-SELECT * 
-FROM WFMAILQUEUEHISTORYTABLE
-WHERE processInstanceId LIKE '%500271%'
-   OR processInstanceId LIKE '%500272%'
-   OR processInstanceId LIKE '%500256%'
-   OR processInstanceId LIKE '%500269%';
+select * from WFMAILQUEUEHISTORYTABLE order by successTime desc  where successtime ='2025-10-06 13:12:28.497'
