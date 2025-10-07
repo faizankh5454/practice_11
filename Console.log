@@ -1,11 +1,41 @@
-SELECT * 
-FROM WFMAILQUEUEHISTORYTABLE
-WHERE DATE(successTime) = CURDATE()
-ORDER BY successTime DESC;
+List<Integer> workItemId = iform.getDataFromDB(workItemQuery);
+
+				RF.mLogger.debug("query result" + workItemId);
+ 
+				if (workItemId != null && workItemId > 1) {
+ 
+if ("setDecisionChild".equals(controlName)) {
+
+			try {
+
+				RF.mLogger.debug("Inside setDecisionChild");
+
+				RF.mLogger.debug("ProcessInstanceID" + processInstanceID);
+ 
+				String workItemQuery = "SELECT WorkItemId FROM WFINSTRUMENTTABLE WHERE WorkItemId > 1 AND ProcessInstanceID = '"
+
+						+ processInstanceID + "'";
+
+				RF.mLogger.debug("query" + workItemQuery);
+ 
+				List<Integer> workItemId = iform.getDataFromDB(workItemQuery);
+
+				RF.mLogger.debug("query result" + workItemId);
+ 
+				if (workItemId != null && workItemId > 1) {
 
 
-SELECT * 
-FROM WFMAILQUEUEHISTORYTABLE
-WHERE CAST(successTime AS DATE) = CAST(GETDATE() AS DATE)
-ORDER BY successTime DESC;
+					String decision = (String) iform.getValue("Decision_dropdown");
 
+					RF.mLogger.debug("Decision value: " + decision);
+
+					iform.setValue("Decision_Child", decision);
+
+				}
+
+			} catch (Exception e) {
+
+				RF.mLogger.debug("Exception of decisionchild ");
+
+			}
+ 
