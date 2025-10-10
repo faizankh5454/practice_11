@@ -1,4 +1,18 @@
-SELECT *
-FROM WFMAILQUEUEHISTORYTABLE
-WHERE processInstanceId LIKE 'DSR-%'
-  AND CAST(createdDate AS DATE) = CAST(GETDATE() AS DATE);
+Hi,
+ 
+Your profile update request for <CUSTOMER_NAME> is processed successfully.
+ 
+Get in touch
+ 
+If you have any feedback or queries, we’d love to hear from you. Just email contactus@rakbank.ae, or chat with us at www.rakbank.ae.
+ 
+For any issues or complaints, email complaints@rakbank.ae and we"ll get back to you within one working day.
+ 
+Your banking partner,
+
+RAKBANK
+
+This is a system-generated email. Please do not reply to this message.
+
+This email message and any attachments to this message are confidential and may contain proprietary, confidential or privileged information. If you are not the intended recipient, you should not disseminate, distribute or copy this email. Please delete the message and notify us immediately on 042130000.
+ 
