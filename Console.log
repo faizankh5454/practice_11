@@ -1,10 +1,2 @@
-Hi @Bhushan Sanjay,
- 
-Please find below our clarification on the two issues mentioned in your email:
-
-1. No logs being generated in Infobip:
-The email tests conducted before 1st October were pointing to the old SMTP server, which is why no logs appeared in the Infobip SMTP server. The configuration was updated on 1st October, so please refer to the logs for the cases generated after that date.
-Additionally, for any log-related issues, the Infobip team will be best suited to investigate further. We will provide our full support as needed.
-
-2. Arabic content discrepancy:
-as I can see the  for defect id   562277   the evidence as I can see you shaer evidence in only Arabic but our email data in English as wll as Arabic so please provide the proper data and our same data in production
+Arabic content discrepancy:
+Regarding defect ID 562277, the evidence you shared contains only Arabic content, while our email data includes both English and Arabic. Please provide the complete data so we can verify, as the same data is being used in production.
