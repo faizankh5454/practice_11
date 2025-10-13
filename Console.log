@@ -1,4 +1,7 @@
-Hi @Bhushan Sanjay
+Hi @Bhushan Sanjay,
 
-As we can see the all these worktime number is September month but from our side infobip  SMTP server pointing was done from 1 of October  that why you are not able to see the logs apart from this if 
-Any workitem  septemper so from our side successfully triggered if you are not getting the logs please connect with @Shaiju M  for the verification 
+As we can see, all the worktime numbers are from the month of September. However, from our side, the Infobip SMTP server pointing was done starting from October 1st. That is why you are not able to see the logs before this date.
+
+Additionally, if there are any work items from September, they were successfully triggered from our side. If you are not receiving the logs for those, please connect with @Shaiju M for further verification.
+
+Thank you.
