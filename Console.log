@@ -1,6 +1,3 @@
-SELECT * 
-FROM WFMAILQUEUEHISTORYTABLE
-WHERE  
-  (processInstanceId LIKE '%CSR-%' OR processInstanceId LIKE '%DSR-%')
-  AND CAST(successTime AS DATE) = CAST(DATEADD(DAY, -1, GETDATE()) AS DATE)
-ORDER BY successTime DESC;
+Hi @Shaiju M
+
+Please find attached excell file all the yesterday data some of getting successfully triggered and some of getting SMTP 421 error 
