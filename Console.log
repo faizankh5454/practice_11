@@ -1,4 +1,6 @@
 SELECT * 
 FROM WFMAILQUEUEHISTORYTABLE
-WHERE mailStatus='F' and processInstanceId like '%DSR-%' and CAST(successTime AS DATE) = CAST(GETDATE() AS DATE)  
+WHERE mailStatus = 'F' 
+  AND processInstanceId LIKE '%DSR-%' 
+  AND CAST(successTime AS DATE) = CAST(DATEADD(DAY, -1, GETDATE()) AS DATE)
 ORDER BY successTime DESC;
