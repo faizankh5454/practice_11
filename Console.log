@@ -1,2 +1,4 @@
-Arabic content discrepancy:
-Regarding defect ID 562277, the evidence you shared contains only Arabic content, while our email data includes both English and Arabic. Please provide the complete data so we can verify, as the same data is being used in production.
+SELECT * 
+FROM WFMAILQUEUEHISTORYTABLE
+WHERE mailStatus='F' and processInstanceId like '%DSR-%' and CAST(successTime AS DATE) = CAST(GETDATE() AS DATE)  
+ORDER BY successTime DESC;
