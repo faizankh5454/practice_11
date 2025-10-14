@@ -1,5 +1,4 @@
-Hi @Charles,
+select * from USR_0_CSR_BT_TemplateMapping where ProcessName='CSR_OCC' and TemplateType='Introduce' and TemplateType='RejectFinalDiscard';
 
-Please find attached the Excel file containing all the data. I have also added the inserted time column in this file.
-
-Let me know if you need any further details.
+and subprocess='CARD DELIVERY REQUEST
+'
