@@ -1,4 +1,5 @@
-select * from USR_0_CSR_BT_TemplateMapping where ProcessName='CSR_OCC' and TemplateType='Introduce' and TemplateType='RejectFinalDiscard';
-
-and subprocess='CARD DELIVERY REQUEST
-'
+SELECT * 
+FROM USR_0_CSR_BT_TemplateMapping 
+WHERE ProcessName = 'CSR_OCC' 
+  AND TemplateType IN ('Introduce', 'RejectFinalDiscard')
+  AND subprocess = 'CARD DELIVERY REQUEST';
