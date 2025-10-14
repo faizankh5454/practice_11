@@ -1,6 +1,6 @@
 SELECT * 
 FROM WFMAILQUEUEHISTORYTABLE
 WHERE  
-   processInstanceId LIKE '%CSR-%'or  processInstanceId LIKE '%DSR-%'
- AND CAST(successTime AS DATE) = CAST(DATEADD(DAY, -1, GETDATE()) AS DATE)
+  (processInstanceId LIKE '%CSR-%' OR processInstanceId LIKE '%DSR-%')
+  AND CAST(successTime AS DATE) = CAST(DATEADD(DAY, -1, GETDATE()) AS DATE)
 ORDER BY successTime DESC;
