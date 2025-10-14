@@ -1,5 +1,1 @@
-SELECT * 
-FROM USR_0_CSR_BT_TemplateMapping 
-WHERE ProcessName = 'CSR_OCC' 
-  AND TemplateType IN ('Introduce', 'RejectFinalDiscard')
-  AND subprocess = 'CARD DELIVERY REQUEST';
+Please find the attached sheet in this sheet mention remakes most of the workitem getting sMTP error and I got two workitem wahere we are not triggering email  we are triggering only sms for both workitem rest of this getting successfully triggered  on mail to test1@rakbanktst.aeand for TS workitem we are sending mail to testuser10@rakbanktst.ae  please cesk the logs in mail box for testuser10
