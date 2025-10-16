@@ -1,5 +1,15 @@
-select TaskId,processInstanceId,mailFrom,mailTo,mailCC,mailStatus,successTime,insertedTime,mailSubject,statusComments,mailMessage from WFMAILQUEUEHISTORYTABLE
-where CAST(successTime as Date)= CAST(getdate() as date) order by successTime desc
-
-
-2025-10-16 16:54:30.750
+SELECT TaskId,
+       processInstanceId,
+       mailFrom,
+       mailTo,
+       mailCC,
+       mailStatus,
+       successTime,
+       insertedTime,
+       mailSubject,
+       statusComments,
+       mailMessage
+FROM WFMAILQUEUEHISTORYTABLE
+WHERE CAST(successTime AS DATE) = CAST(GETDATE() AS DATE)
+  AND CAST(successTime AS TIME) >= '12:00:00'
+ORDER BY successTime DESC;
