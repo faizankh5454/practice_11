@@ -1,16 +1,3 @@
-Please find the attached sheet, which includes remarks regarding the workitems.
+select * from WFMAILQUEUEHISTORYTABLE order by successTime desc
 
-Most of the workitems are encountering SMTP errors.
-
-There are two workitems for which we are not triggering emails; we are sending only SMS notifications for these.
-
-The rest of the workitems are successfully triggering emails to test1@rakbanktst.ae
-.
-
-For the TS workitem, emails are sent to testuser10@rakbanktst.ae
-.
-
-Could you please check the mailbox logs for testuser10@rakbanktst.ae
- to help investigate the issue?
-
-Let me know if you need any further information.
+2025-10-16 09:51:59.643
