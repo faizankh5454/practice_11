@@ -1,2 +1,13 @@
-i checked all the work item  this all only two workitem  triggered successfully and two workitem getting smtp 421 error and last two workitem we are only sending sms not mail here in this allachment excell sheel please ceksk the remarks and mail to 
+Check the remarks in the Excel sheet you mentioned.
 
+Identify the work items that:
+
+Two were triggered successfully.
+
+Two are getting SMTP 421 errors.
+
+Two are sending SMS only, no mail.
+
+Then, draft an email to report this and request a fix.
+
+Please upload the Excel sheet here so I can review the remarks and details to help you draft a proper email.
