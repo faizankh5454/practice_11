@@ -1,3 +1,2 @@
-select * from WFMAILQUEUEHISTORYTABLE order by successTime desc
+i checked all the work item  this all only two workitem  triggered successfully and two workitem getting smtp 421 error and last two workitem we are only sending sms not mail here in this allachment excell sheel please ceksk the remarks and mail to 
 
-2025-10-16 09:51:59.643
