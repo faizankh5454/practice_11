@@ -1,3 +1,5 @@
-Hi @Harshit,
+select TaskId,processInstanceId,mailFrom,mailTo,mailCC,mailStatus,successTime,insertedTime,mailSubject,statusComments,mailMessage from WFMAILQUEUEHISTORYTABLE
+where CAST(successTime as Date)= CAST(getdate() as date) order by successTime desc
 
-Today, I discussed with Shaiju, and he confirmed that he is receiving the Channel ID. Please find the attached screenshot for your reference.
+
+2025-10-16 16:54:30.750
