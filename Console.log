@@ -1,15 +1,3 @@
-SELECT TaskId,
-       processInstanceId,
-       mailFrom,
-       mailTo,
-       mailCC,
-       mailStatus,
-       successTime,
-       insertedTime,
-       mailSubject,
-       statusComments,
-       mailMessage
-FROM WFMAILQUEUEHISTORYTABLE
-WHERE CAST(successTime AS DATE) = CAST(GETDATE() AS DATE)
-  AND CAST(successTime AS TIME) >= '12:00:00'
-ORDER BY successTime DESC;
+Join the meeting now 
+Meeting ID: 376 956 978 869 5 
+Passcode: TL2Lm2wz 
