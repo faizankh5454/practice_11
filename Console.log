@@ -1,2 +1,4 @@
-select * from WFMAILQUEUEHISTORYTABLE
-where CAST(successTime as Date)= CAST(getdate() as date) order by successTime desc
+SELECT * 
+FROM WFMAILQUEUEHISTORYTABLE
+WHERE CAST(successTime AS DATE) = CAST(DATEADD(DAY, -1, GETDATE()) AS DATE)
+ORDER BY successTime DESC;
