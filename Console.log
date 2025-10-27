@@ -1,1 +1,3 @@
-select * from USR_0_CSR_BT_TemplateMapping
+SELECT *
+INTO USR_0_CSR_BT_TemplateMapping_backup_20251027
+FROM USR_0_CSR_BT_TemplateMapping;
