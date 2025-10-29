@@ -1,5 +1,1 @@
-// New condition for renaming subProcessName
-				if ("Setup Suppl. Card Limit".equalsIgnoreCase(subProcessName)) {
-					subProcessName = "Setup Supplementary Card Limit";
-					CSR_OCC.mLogger.debug("subProcessName changed to Setup Supplementary Card Limit");
-				}
+select * from WFMAILQUEUEHISTORYTABLE
