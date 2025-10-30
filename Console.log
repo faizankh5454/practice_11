@@ -1,1 +1,4 @@
-This template is already configured in our master table, so we cannot make any changes without business approval.”
+SELECT *
+FROM WFMAILQUEUEHISTORYTABLE
+WHERE CreatedDate >= CAST(GETDATE() AS DATE)
+  AND CreatedDate < DATEADD(DAY, 1, CAST(GETDATE() AS DATE));
