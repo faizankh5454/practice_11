@@ -1,0 +1,37 @@
+{
+  "info": {
+    "_postman_id": "f1c7dea1-0af5-4a26-9328-omnidocs-api",
+    "name": "OmniDocs Document View API",
+    "description": "Postman collection to hit the OmniDocs Document Viewer API using Document Index.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "View Document in OmniDocs",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            { "key": "Application", "value": "CRMDocView", "type": "text" },
+            { "key": "cabinetName", "value": "rakcas", "type": "text" },
+            { "key": "Userdbid", "value": "-163606980", "type": "text" },
+            { "key": "DocumentId", "value": "1234567", "type": "text" },
+            { "key": "sessionIndexSet", "value": "false", "type": "text" },
+            { "key": "enableDCInfo", "value": "true", "type": "text" },
+            { "key": "S", "value": "S", "type": "text" }
+          ]
+        },
+        "url": {
+          "raw": "https://10.15.12.163:9443/omnidocs/WebApiRequestRedirection",
+          "protocol": "https",
+          "host": ["10","15","12","163"],
+          "port": "9443",
+          "path": ["omnidocs", "WebApiRequestRedirection"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
