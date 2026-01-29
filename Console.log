@@ -1,14 +1,19 @@
-Microsoft Teams meeting
-Join: https://teams.microsoft.com/meet/37423874406472?p=oe3sjletlWCr8cUIIu
-Meeting ID: 374 238 744 064 72
-Passcode: RH6Yd9FV
-Need help? | System reference
-Dial in by phone
-+44 20 3321 5208,,146525340# United Kingdom, City of London
-Find a local number
-Phone conference ID: 146 525 340#
-Join on a video conferencing device
-Tenant key: rakbankuae@m.webex.com
-Video ID: 126 611 208 9
-More info
-For organizers: Meeting options| Reset dial-in PIN
+1.      Wfs_ejb.jar
+2.      Wfsshared.jar, omnishared.jar,ISPACK.jar, NGEJBcllBroker.jar, NGUtility.jar,Nglogger  🡪 Library folder
+3.      WFRestFulwebService.war
+4.      psiform.war (Process specific war file)
+5.      iForm.war, iformimpl.war, sampleApplication.war
+6.      pmweb.war
+7.      pmweb_ejb.jar
+8.      bam.war
+9.      bam_server.ear
+10.  mdm.war
+11.  clssficator_ejb.ear
+12.  brms.war
+13.  omnirules_ejb.jar
+14.  omnidocs_EJB.jar
+15.  Common Services for J2EE\SMS\SMS_Lib\SMSJAVA.jar
+16.  Omniflowconfiguration folder from app server home.
+           17. webdesktop.war , omniapp.war , omniapp_ejb, ngfileupload.war, iBPS sec.jar
+ 
+Stored Procedures : WFCheckExpiry, WFGetWorkitem, WFFetchworklist, WFGetWorkitemData, WFGetNextWorkItemForPS, WFGetNextWorkItemForUtil, WFProcessMessageExt,WFReturnrightsforobjtype, PrtConnectCabinet, PRTChangePassword, PRTSearchDocument
